@@ -1,0 +1,362 @@
+html {
+    font-family: "Poppins" ,sans-serif;
+    scroll-behavior: smooth;
+    font-size: 1.3em;
+    background-image: url(../img/bgg.JPG);
+    background-size: cover;
+}
+
+.body {
+    text-align: center;
+}
+
+i {
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    background-color: rgb(183, 210, 243, 0.7);
+    width: 95%;
+    margin: auto;
+}
+
+.header img {
+    display: block;
+    width: 100%;
+}
+
+.nav {
+    background-color: whitesmoke;
+    border: 1px solid skyblue;
+}
+
+.nav ol {
+    word-spacing: 20px;
+    font-weight: 350;
+    text-align: center;
+}
+
+.nav ol li {
+    display: inline-block;
+}
+
+.nav ol li a {
+    text-decoration: none;
+    color: rgb(35, 138, 183);
+    transition: 500ms;
+}
+
+.nav ol li a:hover {
+    font-weight: 1000;
+}
+
+.main {
+    
+}
+
+.main hr {
+    width: 75%;
+    margin-top: 5%;
+}
+
+.main .intro {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.main .intro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main b {
+    color: rgb(228, 154, 25);
+}
+
+.main .newrelease {
+    text-align: center;
+}
+
+.main .newrelease img {
+    box-shadow: 0px 0px 20px gray ;
+    margin-top: 50px;
+    transition: .5s;
+}
+
+.main .newrelease img:hover {
+    box-shadow: 0px 0px 20px 20px white;
+}
+
+.main .newrelease i {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.main .newrelease a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main .album {
+    display: flex;
+    margin-left: 7;
+    margin-right: 7%;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.main .album .album-cover {
+    flex: 1;
+    text-align: center
+}
+
+.main .album .album-cover img {
+   width: 81%;
+   margin: 5px 0px 5px 0px
+}
+
+.main .album .album-cover #insert {
+   width: 40%;
+   height: auto;
+}
+
+.main .album .album-details {
+    flex: 1;
+    padding-left: 5%;
+}
+
+.main .album .album-details h1 {
+    color: white;
+}
+
+.main .album .album-details h4 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.main .album .album-details button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 24px;
+    border: 2px solid #1e52ba;
+    border-radius: 4px;
+    color: #1e52ba;
+    transition: 500ms;
+}
+
+.main .album .album-details button:hover {
+    background-color: #1e52ba;
+    color: whitesmoke;
+}
+
+.main .album .album-details hr {
+    margin: 15% 5% 0% 5%;
+}
+
+.main .album .album-details i {
+    display: block;
+    margin: 10% 15% 5% 5%;
+}
+
+.main .album .album-details li {
+    font-size: 15px;
+}
+
+audio {
+    margin: 10px;
+    width: 400px;
+}
+
+.main .merch-cd {
+    text-align: center;
+    margin-left: 25%; 
+    margin-right: 25%;
+}
+
+.main .merch-cd img {
+    transition: 0.5s;
+}
+
+.main .merch-cd img:hover {
+    transform: scale(115%);
+}
+
+.main .merch-cd button {
+    background-color: #1e52ba;
+    color: white;
+    font-size: 26px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    transition: 500ms;
+}
+
+.main .merch-cd button:hover {
+    background-color: transparent;
+    border: 3px solid #1e52ba;
+    color: #1e52ba;
+    font-weight: bold;
+}
+
+.merch-cd i {
+    color: #1e52ba;
+}
+
+.merch-product {
+    margin: 10% 2% 0% 2%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 320px 320px;
+    grid-template-rows: 320px 1fr 320px 1fr;
+    gap: 50px;
+}
+
+.merch-product img {
+    transition: 0.5s;
+}
+
+.merch-product img:hover {
+    transform: scale(115%);
+}
+
+.merch-product h5 {
+    font-size: 15px;
+}
+
+.merch-product i {
+    font-size: 12px;
+    color: #1e52ba;
+}
+
+.merch-product h3 {
+    font-size: 25px;
+}
+
+.merch-product button {
+    background-color: transparent;
+    color:  #1e52ba;
+    border: 3px solid #1e52ba;
+    font-size: 15px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    transition: 500ms;
+}
+
+.merch-product button:hover {
+    background-color: #1e52ba;
+    border: 3px solid #1e52ba;
+    color: white;
+    font-weight: bold;
+}
+
+.merch-product div {
+    
+}
+
+.form fieldset {
+    margin: 5%;
+    border-color: #1e52ba;
+}
+
+.form fieldset legend {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+} 
+
+.form fieldset label {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #1e52ba;
+    display: inline-block;
+}
+
+.form fieldset input {
+    border-radius: 4px;
+    margin: 8px;
+    width: 25%;
+    font-size: 20px;
+}
+
+.form fieldset button {
+    margin: 15px 0px 5px 5px;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: #94c4ff;
+    color: white;
+    transition: 0.5s;
+}
+
+.form fieldset button:hover {
+    font-weight: bolder;
+    background-color: #1e52ba;
+}
+
+.footer #contact {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-top: 3px solid gray;
+    background-color: rgba(30, 82, 186, 0.5);
+    height: 150px;
+}
+
+.footer .box1 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer .box1 img {
+    
+}
+
+.footer .box2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer .box2 img {
+    margin: 10px;
+}
+
+.footer .box3 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer .box3 ul {
+    list-style-type: none;
+}
+
+.footer .box3 ul li {
+    font-size: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.footer .box3 ul li a {
+    text-decoration: none;
+    color: beige;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footer .box3 ul li a:hover {
+    color: #1e52ba;
+}
